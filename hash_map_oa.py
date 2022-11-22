@@ -51,8 +51,6 @@ class HashMap:
         """
         return self._capacity
 
-    # ------------------------------------------------------------------ #
-
     def put(self, key: str, value: object) -> None:
         """
         Updates the key/value pair in the hash map. If the given key
