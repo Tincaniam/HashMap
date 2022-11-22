@@ -1,8 +1,4 @@
 # Name: Matthew Tinnel
-# OSU Email: tinnelm@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: Assignment 6: HashMap (Portfolio Assignment)
-# Due Date: June 3, 2022
 # Description: An implementation of a HashMap with Open Addressing with Quadratic Probing
 # for collision resolution. Utilizes a Dynamic Array containing HashEntry objects.
 # The following methods are added by the author:
