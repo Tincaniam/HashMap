@@ -1,7 +1,7 @@
 # Name: Matthew Tinnel
 # Description: An implementation of a HashMap with Open Addressing with Quadratic Probing
 # for collision resolution. Utilizes a Dynamic Array containing HashEntry objects.
-# The following methods are added by the author:
+# The following methods are included:
 #   put()
 #   get()
 #   remove()
