@@ -20,8 +20,7 @@ class HashMap:
     def __init__(self, capacity: int, function) -> None:
         """
         Initialize new HashMap that uses
-        quadratic probing for collision resolution
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        quadratic probing for collision resolution.
         """
         self._buckets = DynamicArray()
         for _ in range(capacity):
@@ -33,8 +32,7 @@ class HashMap:
 
     def __str__(self) -> str:
         """
-        Override string method to provide more readable output
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        Override string method to provide more readable output.
         """
         out = ''
         for i in range(self._buckets.length()):
@@ -43,15 +41,13 @@ class HashMap:
 
     def get_size(self) -> int:
         """
-        Return size of map
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        Return size of map.
         """
         return self._size
 
     def get_capacity(self) -> int:
         """
-        Return capacity of map
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        Return capacity of map.
         """
         return self._capacity
 
